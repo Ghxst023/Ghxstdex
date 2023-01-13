@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "ghxstdex0",
+    "public": ".",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
